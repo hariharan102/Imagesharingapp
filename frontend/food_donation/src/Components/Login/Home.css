@@ -1,0 +1,100 @@
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.banner-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.banner-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.cta-button-banner {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #ffd000;
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button-banner:hover {
+  background-color: #ffffff; 
+}
+
+
+@media screen and (max-width: 768px) {
+  .banner-section {
+    font-size: 24px;
+  }
+
+  .cta-button-banner {
+    font-size: 16px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .banner-section {
+    font-size: 20px;
+  }
+
+  .cta-button-banner {
+    font-size: 14px;
+  }
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.image-card {
+  text-align: center;
+  width: 30%;
+  margin: 10px;
+}
+
+.image-card h3 {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.image-card p {
+  font-size: 14px;
+}
+
+.impact-stories {
+  margin-top: 40px;
+}
+
+.impact-stories h2 {
+  text-align: center;
+  font-size: 24px;
+}
+
+.story {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.impact-image {
+  max-width: 100px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 5px;
+}

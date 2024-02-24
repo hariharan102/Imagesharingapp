@@ -1,0 +1,105 @@
+.signup-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+
+.signup-main-box {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.signup-container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  text-align: left; 
+  margin: 0 auto; 
+}
+
+
+.signup-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+
+.signup-username-box {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.signup-username-box input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.signup-username-box label {
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  transition: transform 0.3s ease;
+  color: #aaa;
+}
+
+.signup-username-box input:focus + label,
+.signup-username-box input:valid + label {
+  transform: translateY(-20px);
+  font-size: 14px;
+  color: #333;
+}
+
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+
+.signup-button-box-outer {
+  margin-top: 20px;
+}
+
+.signup-button-box input[type="button"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 20px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+}
+
+
+.already {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.link {
+  cursor: pointer;
+  color: #007bff;
+  margin-left: 10px;
+}
+.bobb{
+  
+  background-size: cover;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

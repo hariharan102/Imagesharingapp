@@ -1,0 +1,46 @@
+/* Add this CSS to your component or a separate CSS file */
+
+.page-body {
+    font-family: 'Arial', sans-serif;
+    background-color: hsla(192, 35%, 67%, 0.462);
+    margin: 0;
+  }
+  
+  .dashboard-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #97be975a;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-heading {
+    color: #333;
+  }
+  
+  /* Style for feedback reports */
+  .dashboard-feedback-reports {
+    margin-top: 20px;
+  }
+  
+  /* Style for navigation links */
+  .dashboard-link-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .dashboard-link-container a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dashboard-link-container a:hover {
+    background-color: #2980b9;
+  }
+  

@@ -1,0 +1,27 @@
+
+
+.terms-and-conditions {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: justify;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .terms-and-conditions h1,
+  .terms-and-conditions h2 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .terms-and-conditions ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .terms-and-conditions p {
+    margin-bottom: 20px;
+  }
+  

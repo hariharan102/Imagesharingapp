@@ -1,0 +1,19 @@
+.privacy-policy-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: justify;
+  background-color: #fafafa;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.privacy-policy-container h1,
+.privacy-policy-container h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.privacy-policy-container p {
+  margin-bottom: 20px;
+}
